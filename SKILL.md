@@ -1,5 +1,5 @@
 ---
-name: vigil-integration
+name: agent-auth-byvigil-skills
 description: Guide developers through integrating Vigil (Agent Auth) into their website — SDK setup, database schema, callback handling, sign-in flow, and credential verification. Use when building agent authentication, integrating Vigil/Agent Auth, or setting up DID-based identity for AI agents.
 ---
 
