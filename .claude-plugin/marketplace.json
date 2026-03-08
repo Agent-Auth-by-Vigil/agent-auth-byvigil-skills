@@ -1,0 +1,28 @@
+{
+  "name": "agent-auth-byvigil",
+  "owner": {
+    "name": "Agent Auth by Vigil",
+    "email": "support@usevigil.dev"
+  },
+  "metadata": {
+    "description": "Agent Auth (Vigil) integration skill for Claude Code — SDK setup, database schema, callback handling, and credential verification for AI agent authentication.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "vigil-integration",
+      "source": "./plugins/vigil-integration",
+      "description": "Guide developers through integrating Vigil (Agent Auth) into their website — SDK setup, database schema, callback handling, sign-in flow, and credential verification.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Agent Auth by Vigil"
+      },
+      "homepage": "https://usevigil.dev/docs",
+      "repository": "https://github.com/Agent-Auth-by-Vigil/agent-auth-byvigil-skills",
+      "license": "MIT",
+      "keywords": ["agent-auth", "vigil", "did", "authentication", "ai-agents", "verifiable-credentials"],
+      "category": "authentication",
+      "tags": ["auth", "identity", "ai-agents", "did", "vigil", "sdk"]
+    }
+  ]
+}

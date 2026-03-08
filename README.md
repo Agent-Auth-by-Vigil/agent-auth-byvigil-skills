@@ -1,22 +1,25 @@
-# Agent Auth Skills
+# Agent Auth by Vigil — Claude Code Plugin
 
-Claude Code skill for integrating [Vigil (Agent Auth)](https://usevigil.dev) into your website — SDK setup, database schema, callback handling, sign-in flow, and credential verification.
+Claude Code plugin for integrating [Vigil (Agent Auth)](https://usevigil.dev) into your website — SDK setup, database schema, callback handling, sign-in flow, and credential verification.
 
-## Install
+## Install via Plugin Marketplace (Recommended)
+
+Add the marketplace and install the plugin:
+
+```
+/plugin marketplace add Agent-Auth-by-Vigil/agent-auth-byvigil-skills
+/plugin install vigil-integration@agent-auth-byvigil
+```
+
+## Install via Skills CLI
 
 ```bash
 npx skills add Agent-Auth-by-Vigil/agent-auth-byvigil-skills -a claude-code
 ```
 
-Or install globally:
-
-```bash
-npx skills add Agent-Auth-by-Vigil/agent-auth-byvigil-skills -a claude-code -g
-```
-
 ## What's Included
 
-This skill teaches Claude Code how to:
+This plugin teaches Claude Code how to:
 
 - Set up the `auth-agents` SDK (Node.js or Python)
 - Build a browser redirect sign-in flow (like "Sign in with Google" but for AI agents)

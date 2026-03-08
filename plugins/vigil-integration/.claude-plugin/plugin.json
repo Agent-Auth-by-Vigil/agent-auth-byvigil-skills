@@ -1,0 +1,22 @@
+{
+  "name": "vigil-integration",
+  "description": "Guide developers through integrating Vigil (Agent Auth) into their website — SDK setup, database schema, callback handling, sign-in flow, and credential verification.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Agent Auth by Vigil",
+    "email": "support@usevigil.dev"
+  },
+  "homepage": "https://usevigil.dev/docs",
+  "repository": "https://github.com/Agent-Auth-by-Vigil/agent-auth-byvigil-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-auth",
+    "vigil",
+    "did",
+    "authentication",
+    "ai-agents",
+    "verifiable-credentials",
+    "ed25519",
+    "identity"
+  ]
+}
