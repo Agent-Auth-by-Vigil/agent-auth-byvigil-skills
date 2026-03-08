@@ -5,7 +5,13 @@ Claude Code skill for integrating [Vigil (Agent Auth)](https://usevigil.dev) int
 ## Install
 
 ```bash
-claude mcp add-skill https://github.com/Agent-Auth-by-Vigil/agent-auth-skills
+npx skills add Agent-Auth-by-Vigil/agent-auth-skills -a claude-code
+```
+
+Or install globally:
+
+```bash
+npx skills add Agent-Auth-by-Vigil/agent-auth-skills -a claude-code -g
 ```
 
 ## What's Included
